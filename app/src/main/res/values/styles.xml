@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tab_menu_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:background">@drawable/tab_menu_bg</item>
+        <item name="android:textColor">@drawable/tab_menu_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="compentManyday">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="compentToday">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="compentType">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_while</item>
+    </style>
+    <style name="compentSmall">
+        <item name="android:textSize">10dp</item>
+        <item name="android:text">舒服</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="compentAnnotation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textColor">#D1D1D1</item>
+    </style>
+
+    <style name="index_img">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
